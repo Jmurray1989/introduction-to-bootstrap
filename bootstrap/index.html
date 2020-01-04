@@ -7,13 +7,11 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Whiskey | Taste a new whiskey every month</title>
 
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
-	</script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Dancing+Script:400,700&display=swap" rel="stylesheet">
 	<script src="https://kit.fontawesome.com/837a9d992d.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
+
 </head>
 
 <body>
@@ -46,9 +44,10 @@
 		<div class="d-none d-md-block">
 			<p class="navbar-text my-auto mr-2"><i>Great whiskey delivered to your door</i></p>
 			<a href="/login">Sign In / Sign Up</a>
+		</div>
 
 	</nav>
-	<article class="container mt-3">
+	<div class="container mt-3">
 		<div class="row d-none d-sm-block">
 			<div class="col-12">
 				<div class="alert alert-warning">
@@ -65,35 +64,37 @@
 					<p class="lead">Sign up today to start receiving the world's best whiskeys every month.
 						<s class="d-none d-sm-inline">€19.99</s>
 						<span class="d-inline d-sm-none"><br></span>
-						<strong><mark>First one is free!</strong></p>
-					<button class="btn btn-success btn-lg"data-toggle="modal" data-target="#signupModal" >Sign Up!</button>
+						<strong><mark>First one is free!</mark></strong></p>
+					<button class="btn btn-success btn-lg" data-toggle="modal" data-target="#signupModal" >Sign Up!</button>
 					<p class="text-muted">
 						<small>You must be over 18 to sign up to our service. Please, drink responsibly.</small></p>
 				</section>
 			</div>
 		</div>
 		<!-- /.callout -->
-		<hr>
+	</div>
 
-		<!-- Quotes -->
+	<!-- Quotes -->
+	<div class="container quotes-container">
 		<section class="quotes">
 			<div class="row">
 				<div class="col-12 my-5">
 					<h2 class="text-uppercase">Quotes:</h2>
+					<hr />
 				</div>
 			</div>
 			<div class="row">
 				<div class="col-12 col-md-6">
 					<div class="media">
 						<div class="d-none d-sm-block">
-							<img src="images/girl2.jpg" class="rounded-circle mr-3" height="100" width="100" alt="girl">
+							<img src="images/girl2.jpg" class="rounded-circle mr-3" height=100 width=100 alt="girl">
                         </div>
 							<div class="media-body">
 								<blockquote class="blockquote">
 									<p>I've been introduced to more than 10 great international whiskeys I never knew
-										about.
-									</p>
-									<p>- Jane Doe</p>
+										about.</p>
+									<footer class="blockquote-footer">Jane Doe on <cite title="Twitter">Twitter</cite>
+									</footer>
 								</blockquote>
 							</div>
 						</div>
@@ -101,59 +102,57 @@
 					<div class="col-12 col-md-6">
 						<div class="media">
 							<div class="d-none d-sm-block">
-								<img src="images/guy2.jpg" class="rounded-circle mr-3" height="100" width="100" alt="guy">
-                    </div>
+								<img src="images/guy2.jpg" class="rounded-circle mr-3" height=100 width=100 alt="guy">
+                        </div>
 								<div class="media-body">
 									<blockquote class="blockquote">
 										<p>I haven't been sober for months!</p>
-										<p>- Jane Doe</p>
+										<footer class="blockquote-footer">Jane Doe on
+											<cite title="Twitter">Twitter</cite></footer>
 									</blockquote>
 								</div>
 							</div>
+						</div>
+					</div>
 		</section>
-		<!-- /.quotes -->
-		<hr>
+	</div>
+	<!-- /.quotes -->
 
-		<!-- Features -->
-		<section class="features">
-			<div class="row">
-				<div class="col-12 my-5">
-					<h2 class="text-uppercase">Features:</h2>
+	<hr>
+
+	<!-- Features -->
+	<section class="features">
+		<div class="row">
+			<div class="col-12 my-5">
+				<h2 class="text-uppercase">Features:</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="feature">
+					<h3><i class="fas fa-gift d-none d-sm-inline"></i> Feature 1
+						<span class="badge badge-success">NEW!</span></h3>
+					<p>This is Feature 1.</p>
+					<button class="btn btn-sm btn-light">Read More</button>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-12 col-md-6 col-lg-4">
-					<div class="feature">
-						<h3><i class="fas fa-gift d-none d-sm-inline"></i> Feature 1
-							<span class="badge badge-success">NEW!</span></h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-							laboris nisi ut aliquip ex ea commodo consequat.</p>
-						<button class="btn btn-sm btn-light" href="">Read More</button>
-					</div>
-				</div>
-				<div class="col-12 col-md-6 col-lg-4">
-					<div class="feature">
-						<h3><i class="fas fa-credit-card  d-none d-sm-inline"></i> Feature 2</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-							laboris nisi ut aliquip ex ea commodo consequat.</p>
-						<button class="btn btn-sm btn-light" href="">Read More</button>
-					</div>
-				</div>
-				<div class="col-12 d-md-none d-lg-block col-lg-4">
-					<div class="feature">
-						<h3><i class="fas fa-times-circle  d-none d-sm-inline"></i> Feature 3</h3>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-							labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-							laboris nisi ut aliquip ex ea commodo consequat.</p>
-						<button class="btn btn-sm btn-light" href="">Read More</button>
-					</div>
+			<div class="col-12 col-md-6 col-lg-4">
+				<div class="feature">
+					<h3><i class="fas fa-credit-card  d-none d-sm-inline"></i> Feature 2</h3>
+					<p>This is feature 2.</p>
+					<button class="btn btn-sm btn-light">Read More</button>
 				</div>
 			</div>
-		</section>
-		<!-- /.features -->
-	</article>
+			<div class="col-12 d-md-none d-lg-block col-lg-4">
+				<div class="feature">
+					<h3><i class="fas fa-times-circle  d-none d-sm-inline"></i> Feature 3</h3>
+					<p>This is feature 3.</p>
+					<button class="btn btn-sm btn-light">Read More</button>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- /.features -->
 
 	<div class="modal" tabindex="-1" role="dialog" id="signupModal">
 		<div class="modal-dialog" role="document">
@@ -175,12 +174,12 @@
 							<label for="password">Password</label>
 							<input type="password" class="form-control" id="password" placeholder="Password">
                         </div>
-                        <div class="form-group">
-							<label for="repeatPassword">Repeat Password</label>
-							<input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
+							<div class="form-group">
+								<label for="repeatPassword">Repeat Password</label>
+								<input type="password" class="form-control" id="repeatPassword" placeholder="Repeat Password">
                         </div>
 
-							<button type="submit" class="btn btn-success">Submit</button>
+								<button type="submit" class="btn btn-success">Submit</button>
 					</form>
 				</div>
 			</div>
